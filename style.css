@@ -59,21 +59,21 @@ footer {
   margin-top: 2rem;
 }
 
-/* Row background colors */
+
 .high-temp {
-  background-color: #ffcccc; /* light red */
+  background-color: #ffcccc; 
 }
 .high-pressure {
-  background-color: #fff3cd; /* light yellow */
+  background-color: #fff3cd; 
 }
 .low-flow {
-  background-color: #cce5ff; /* light blue */
+  background-color: #cce5ff; 
 }
 .normal {
-  background-color: #d4edda; /* light green */
+  background-color: #d4edda; 
 }
 
-/* Alert text colors */
+
 .alert-high-temp {
   color: red;
   font-weight: bold;

@@ -1,13 +1,13 @@
-// --- Simulated geothermal data ---
+
 function getRandomData() {
-  const temp = (Math.random() * 200).toFixed(1); // 0–200 °C
-  const pressure = (Math.random() * 2).toFixed(2); // 0–2 bar
-  const flow = Math.floor(Math.random() * 100);   // 0–100 L/s
+  const temp = (Math.random() * 200).toFixed(1); 
+  const pressure = (Math.random() * 2).toFixed(2); 
+  const flow = Math.floor(Math.random() * 100);   
 
   let alert = "Normal";
-  if (temp > 150) alert = "⚠️ High Temp!";
-  else if (pressure > 1.5) alert = "⚠️ High Pressure!";
-  else if (flow < 10) alert = "⚠️ Low Flow!";
+  if (temp > 150) alert = " High Temp!";
+  else if (pressure > 1.5) alert = "High Pressure!";
+  else if (flow < 10) alert = " Low Flow!";
 
   return {
     time: new Date().toLocaleTimeString(),
@@ -18,11 +18,11 @@ function getRandomData() {
   };
 }
 
-// --- Render table row ---
+
 function renderRow(data) {
   const row = document.createElement("tr");
 
-  // Apply row background color
+
   if (data.alert.includes("High Temp")) row.classList.add("high-temp");
   else if (data.alert.includes("High Pressure")) row.classList.add("high-pressure");
   else if (data.alert.includes("Low Flow")) row.classList.add("low-flow");
@@ -50,7 +50,7 @@ function renderRow(data) {
   return row;
 }
 
-// --- Update table + chart ---
+
 function updateTableAndChart() {
   const data = getRandomData();
   const tableBody = document.getElementById("tableBody");
@@ -58,18 +58,17 @@ function updateTableAndChart() {
   const row = renderRow(data);
   tableBody.prepend(row);
 
-  // Keep last 10 rows
+
   while (tableBody.rows.length > 10) {
     tableBody.deleteRow(-1);
   }
 
-  // --- Update chart ---
+  
   wellChart.data.labels.push(data.time);
   wellChart.data.datasets[0].data.push(data.temp);
   wellChart.data.datasets[1].data.push(data.pressure);
   wellChart.data.datasets[2].data.push(data.flow);
 
-  // Keep chart to last 10 points
   if (wellChart.data.labels.length > 10) {
     wellChart.data.labels.shift();
     wellChart.data.datasets.forEach(ds => ds.data.shift());
@@ -78,7 +77,7 @@ function updateTableAndChart() {
   wellChart.update();
 }
 
-// --- Chart.js setup ---
+
 const ctx = document.getElementById("wellChart").getContext("2d");
 const wellChart = new Chart(ctx, {
   type: "line",
@@ -116,6 +115,6 @@ const wellChart = new Chart(ctx, {
   }
 });
 
-// Run every 5s
+
 setInterval(updateTableAndChart, 5000);
 updateTableAndChart();
