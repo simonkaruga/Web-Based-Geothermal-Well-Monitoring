@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geothermal Well Monitoring</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Web-Based Geothermal Well Monitoring</h1>
+    <p>Simulated real-time data for Temperature, Pressure, and Flow</p>
+  </header>
+
+  <main>
+    <h2>Well Data Table</h2>
+    <table id="wellTable">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Temperature (°C)</th>
+          <th>Pressure (bar)</th>
+          <th>Flow (L/s)</th>
+          <th>Alert</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+
+    <div id="details">
+      <h2>Selected Row Details</h2>
+      <p id="rowDetails">Click a row to see details here...</p>
+    </div>
+
+    <h2>Live Chart</h2>
+    <canvas id="wellChart"></canvas>
+  </main>
+
+  <footer>
+    <p>© 2025 Geothermal Monitoring Dashboard</p>
+  </footer>
+
+  <!-- Load Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
