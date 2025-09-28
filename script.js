@@ -1,120 +1,94 @@
-
-function getRandomData() {
-  const temp = (Math.random() * 200).toFixed(1); 
-  const pressure = (Math.random() * 2).toFixed(2); 
-  const flow = Math.floor(Math.random() * 100);   
-
-  let alert = "Normal";
-  if (temp > 150) alert = " High Temp!";
-  else if (pressure > 1.5) alert = "High Pressure!";
-  else if (flow < 10) alert = " Low Flow!";
-
-  return {
-    time: new Date().toLocaleTimeString(),
-    temp,
-    pressure,
-    flow,
-    alert
-  };
-}
-
-
-function renderRow(data) {
-  const row = document.createElement("tr");
-
-
-  if (data.alert.includes("High Temp")) row.classList.add("high-temp");
-  else if (data.alert.includes("High Pressure")) row.classList.add("high-pressure");
-  else if (data.alert.includes("Low Flow")) row.classList.add("low-flow");
-  else row.classList.add("normal");
-
-  // Pick alert text color
-  let alertClass = "alert-normal";
-  if (data.alert.includes("High Temp")) alertClass = "alert-high-temp";
-  else if (data.alert.includes("High Pressure")) alertClass = "alert-high-pressure";
-  else if (data.alert.includes("Low Flow")) alertClass = "alert-low-flow";
-
-  row.innerHTML = `
-    <td>${data.time}</td>
-    <td>${data.temp}</td>
-    <td>${data.pressure}</td>
-    <td>${data.flow}</td>
-    <td class="${alertClass}">${data.alert}</td>
-  `;
-
-  row.addEventListener("click", () => {
-    document.getElementById("rowDetails").textContent =
-      `At ${data.time}, Temperature: ${data.temp} °C, Pressure: ${data.pressure} bar, Flow: ${data.flow} L/s, Alert: ${data.alert}`;
-  });
-
-  return row;
-}
-
-
-function updateTableAndChart() {
-  const data = getRandomData();
-  const tableBody = document.getElementById("tableBody");
-
-  const row = renderRow(data);
-  tableBody.prepend(row);
-
-
-  while (tableBody.rows.length > 10) {
-    tableBody.deleteRow(-1);
-  }
-
-  
-  wellChart.data.labels.push(data.time);
-  wellChart.data.datasets[0].data.push(data.temp);
-  wellChart.data.datasets[1].data.push(data.pressure);
-  wellChart.data.datasets[2].data.push(data.flow);
-
-  if (wellChart.data.labels.length > 10) {
-    wellChart.data.labels.shift();
-    wellChart.data.datasets.forEach(ds => ds.data.shift());
-  }
-
-  wellChart.update();
-}
-
-
+const API_URL = "http://localhost:3000/readings";
+const tableBody = document.getElementById("tableBody");
 const ctx = document.getElementById("wellChart").getContext("2d");
+
 const wellChart = new Chart(ctx, {
   type: "line",
   data: {
     labels: [],
     datasets: [
-      {
-        label: "Temperature (°C)",
-        borderColor: "red",
-        backgroundColor: "rgba(255,0,0,0.1)",
-        data: [],
-      },
-      {
-        label: "Pressure (bar)",
-        borderColor: "orange",
-        backgroundColor: "rgba(255,165,0,0.1)",
-        data: [],
-      },
-      {
-        label: "Flow (L/s)",
-        borderColor: "blue",
-        backgroundColor: "rgba(0,0,255,0.1)",
-        data: [],
-      }
+      { label: "Temperature (°C)", borderColor: "red", data: [], tension: 0.4 },
+      { label: "Pressure (bar)", borderColor: "orange", data: [], tension: 0.4 },
+      { label: "Flow (L/s)", borderColor: "blue", data: [], tension: 0.4 }
     ]
   },
   options: {
     responsive: true,
-    plugins: {
-      legend: { position: "top" }
-    },
+    plugins: { legend: { labels: { color: "white" } } },
     scales: {
-      y: { beginAtZero: true }
+      x: { ticks: { color: "white" }, grid: { color: "#333" } },
+      y: { beginAtZero: true, ticks: { color: "white" }, grid: { color: "#333" } }
     }
   }
 });
 
 
-setInterval(updateTableAndChart, 5000);
-updateTableAndChart();
+function generateReading() {
+  const temp = (Math.random() * 200).toFixed(1);
+  const pressure = (Math.random() * 2).toFixed(2);
+  const flow = Math.floor(Math.random() * 100);
+  const time = new Date().toLocaleTimeString();
+
+  let alert = "Normal";
+  if (temp > 150) alert = "High Temp!";
+  else if (pressure > 1.5) alert = "High Pressure!";
+  else if (flow < 20) alert = "Low Flow!";
+
+  return { time, temp, pressure, flow, alert };
+}
+
+
+async function postReading(reading) {
+  await fetch(API_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(reading)
+  });
+}
+
+async function fetchReadings() {
+  const res = await fetch(API_URL);
+  const data = await res.json();
+  renderTable(data);
+  renderChart(data);
+}
+
+function renderTable(data) {
+  tableBody.innerHTML = "";
+  data.slice(-10).reverse().forEach(d => {
+    const row = document.createElement("tr");
+
+    let alertClass = "alert-normal";
+    if (d.alert.includes("High Temp")) alertClass = "alert-high-temp";
+    else if (d.alert.includes("High Pressure")) alertClass = "alert-high-pressure";
+    else if (d.alert.includes("Low Flow")) alertClass = "alert-low-flow";
+
+    row.innerHTML = `
+      <td>${d.time}</td>
+      <td>${d.temp}</td>
+      <td>${d.pressure}</td>
+      <td>${d.flow}</td>
+      <td class="${alertClass}">${d.alert}</td>
+    `;
+    tableBody.appendChild(row);
+  });
+}
+
+
+function renderChart(data) {
+  wellChart.data.labels = data.slice(-10).map(d => d.time);
+  wellChart.data.datasets[0].data = data.slice(-10).map(d => d.temp);
+  wellChart.data.datasets[1].data = data.slice(-10).map(d => d.pressure);
+  wellChart.data.datasets[2].data = data.slice(-10).map(d => d.flow);
+  wellChart.update();
+}
+
+
+setInterval(async () => {
+  const newReading = generateReading();
+  await postReading(newReading);
+  fetchReadings();
+}, 50000);
+
+
+fetchReadings();

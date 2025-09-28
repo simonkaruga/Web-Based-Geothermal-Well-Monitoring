@@ -1,3 +1,2740 @@
 {
-  "readings": []
+  "readings": [
+    {
+      "time": "4:49:05 PM",
+      "temp": 185.9,
+      "pressure": 1,
+      "flow": 29,
+      "alert": "High Temp!",
+      "id": "b3b2"
+    },
+    {
+      "time": "4:49:02 PM",
+      "temp": 147.7,
+      "pressure": 0.88,
+      "flow": 4,
+      "alert": "Low Flow!",
+      "id": "ee0c"
+    },
+    {
+      "time": "4:48:59 PM",
+      "temp": 69,
+      "pressure": 1.05,
+      "flow": 50,
+      "alert": "Normal",
+      "id": "9d35"
+    },
+    {
+      "id": "6391",
+      "time": "4:54:17 PM",
+      "temp": "116.0",
+      "pressure": "0.58",
+      "flow": 93,
+      "alert": "Normal"
+    },
+    {
+      "id": "0b57",
+      "time": "4:54:23 PM",
+      "temp": "189.7",
+      "pressure": "0.04",
+      "flow": 94,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "6530",
+      "time": "4:54:28 PM",
+      "temp": "64.0",
+      "pressure": "0.40",
+      "flow": 81,
+      "alert": "Normal"
+    },
+    {
+      "id": "9b0a",
+      "time": "4:54:33 PM",
+      "temp": "174.1",
+      "pressure": "0.98",
+      "flow": 77,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "100a",
+      "time": "4:54:38 PM",
+      "temp": "116.2",
+      "pressure": "1.25",
+      "flow": 82,
+      "alert": "Normal"
+    },
+    {
+      "id": "a5e9",
+      "time": "4:54:43 PM",
+      "temp": "87.1",
+      "pressure": "1.19",
+      "flow": 80,
+      "alert": "Normal"
+    },
+    {
+      "id": "ef89",
+      "time": "4:54:49 PM",
+      "temp": "132.8",
+      "pressure": "0.99",
+      "flow": 0,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "0fc3",
+      "time": "4:54:54 PM",
+      "temp": "16.3",
+      "pressure": "0.15",
+      "flow": 48,
+      "alert": "Normal"
+    },
+    {
+      "id": "ada5",
+      "time": "4:54:59 PM",
+      "temp": "128.0",
+      "pressure": "0.10",
+      "flow": 43,
+      "alert": "Normal"
+    },
+    {
+      "id": "41df",
+      "time": "4:55:04 PM",
+      "temp": "103.2",
+      "pressure": "0.83",
+      "flow": 86,
+      "alert": "Normal"
+    },
+    {
+      "id": "e722",
+      "time": "4:55:09 PM",
+      "temp": "113.2",
+      "pressure": "1.62",
+      "flow": 13,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "3015",
+      "time": "4:55:15 PM",
+      "temp": "185.2",
+      "pressure": "0.46",
+      "flow": 45,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "423f",
+      "time": "4:55:20 PM",
+      "temp": "18.2",
+      "pressure": "0.54",
+      "flow": 52,
+      "alert": "Normal"
+    },
+    {
+      "id": "72ed",
+      "time": "4:55:25 PM",
+      "temp": "19.6",
+      "pressure": "0.09",
+      "flow": 67,
+      "alert": "Normal"
+    },
+    {
+      "id": "62e9",
+      "time": "4:55:30 PM",
+      "temp": "170.3",
+      "pressure": "1.48",
+      "flow": 11,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "fc62",
+      "time": "4:55:35 PM",
+      "temp": "156.8",
+      "pressure": "0.97",
+      "flow": 79,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "de48",
+      "time": "4:55:41 PM",
+      "temp": "189.3",
+      "pressure": "0.47",
+      "flow": 61,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "8383",
+      "time": "4:55:46 PM",
+      "temp": "6.4",
+      "pressure": "1.22",
+      "flow": 48,
+      "alert": "Normal"
+    },
+    {
+      "id": "97c9",
+      "time": "4:55:51 PM",
+      "temp": "11.6",
+      "pressure": "1.31",
+      "flow": 86,
+      "alert": "Normal"
+    },
+    {
+      "id": "f745",
+      "time": "4:55:56 PM",
+      "temp": "193.2",
+      "pressure": "1.61",
+      "flow": 29,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "7eb3",
+      "time": "4:56:01 PM",
+      "temp": "126.9",
+      "pressure": "1.29",
+      "flow": 93,
+      "alert": "Normal"
+    },
+    {
+      "id": "e58a",
+      "time": "4:56:07 PM",
+      "temp": "158.5",
+      "pressure": "0.57",
+      "flow": 99,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "e9da",
+      "time": "4:56:12 PM",
+      "temp": "178.2",
+      "pressure": "0.69",
+      "flow": 92,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "5ecd",
+      "time": "4:56:17 PM",
+      "temp": "89.3",
+      "pressure": "1.56",
+      "flow": 9,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "d56c",
+      "time": "4:56:22 PM",
+      "temp": "160.2",
+      "pressure": "1.02",
+      "flow": 70,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "04be",
+      "time": "4:56:27 PM",
+      "temp": "41.7",
+      "pressure": "1.33",
+      "flow": 51,
+      "alert": "Normal"
+    },
+    {
+      "id": "d4f8",
+      "time": "4:56:33 PM",
+      "temp": "137.4",
+      "pressure": "0.30",
+      "flow": 60,
+      "alert": "Normal"
+    },
+    {
+      "id": "7be2",
+      "time": "4:56:38 PM",
+      "temp": "134.4",
+      "pressure": "0.47",
+      "flow": 13,
+      "alert": "⚠️ Low Flow!"
+    },
+    {
+      "id": "8417",
+      "time": "4:56:43 PM",
+      "temp": "21.1",
+      "pressure": "0.77",
+      "flow": 89,
+      "alert": "Normal"
+    },
+    {
+      "id": "f173",
+      "time": "4:56:48 PM",
+      "temp": "75.5",
+      "pressure": "0.88",
+      "flow": 42,
+      "alert": "Normal"
+    },
+    {
+      "id": "dcf2",
+      "time": "4:56:53 PM",
+      "temp": "118.4",
+      "pressure": "1.48",
+      "flow": 32,
+      "alert": "Normal"
+    },
+    {
+      "id": "cbf3",
+      "time": "4:56:59 PM",
+      "temp": "113.1",
+      "pressure": "0.56",
+      "flow": 84,
+      "alert": "Normal"
+    },
+    {
+      "id": "5c74",
+      "time": "4:57:04 PM",
+      "temp": "118.6",
+      "pressure": "1.87",
+      "flow": 86,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "62a7",
+      "time": "4:57:09 PM",
+      "temp": "29.9",
+      "pressure": "1.81",
+      "flow": 86,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "ed79",
+      "time": "4:57:14 PM",
+      "temp": "77.6",
+      "pressure": "0.78",
+      "flow": 97,
+      "alert": "Normal"
+    },
+    {
+      "id": "fc7e",
+      "time": "4:57:19 PM",
+      "temp": "84.0",
+      "pressure": "0.31",
+      "flow": 93,
+      "alert": "Normal"
+    },
+    {
+      "id": "0dba",
+      "time": "4:57:25 PM",
+      "temp": "37.6",
+      "pressure": "1.42",
+      "flow": 43,
+      "alert": "Normal"
+    },
+    {
+      "id": "1911",
+      "time": "4:57:30 PM",
+      "temp": "63.9",
+      "pressure": "1.45",
+      "flow": 91,
+      "alert": "Normal"
+    },
+    {
+      "id": "d8b9",
+      "time": "4:57:36 PM",
+      "temp": "82.3",
+      "pressure": "1.65",
+      "flow": 99,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "1acd",
+      "time": "4:57:42 PM",
+      "temp": "78.9",
+      "pressure": "1.15",
+      "flow": 37,
+      "alert": "Normal"
+    },
+    {
+      "id": "7508",
+      "time": "4:57:48 PM",
+      "temp": "176.3",
+      "pressure": "1.04",
+      "flow": 65,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "e6ce",
+      "time": "4:57:54 PM",
+      "temp": "174.4",
+      "pressure": "1.60",
+      "flow": 21,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "59ff",
+      "time": "4:58:00 PM",
+      "temp": "165.7",
+      "pressure": "0.18",
+      "flow": 36,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "ad4a",
+      "time": "4:58:06 PM",
+      "temp": "11.3",
+      "pressure": "1.36",
+      "flow": 88,
+      "alert": "Normal"
+    },
+    {
+      "id": "61ae",
+      "time": "4:58:18 PM",
+      "temp": "119.5",
+      "pressure": "0.12",
+      "flow": 24,
+      "alert": "Normal"
+    },
+    {
+      "id": "7baf",
+      "time": "4:58:24 PM",
+      "temp": "171.4",
+      "pressure": "1.51",
+      "flow": 25,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "7a68",
+      "time": "4:58:30 PM",
+      "temp": "14.8",
+      "pressure": "0.27",
+      "flow": 78,
+      "alert": "Normal"
+    },
+    {
+      "id": "0787",
+      "time": "4:58:40 PM",
+      "temp": "97.2",
+      "pressure": "1.72",
+      "flow": 62,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "9ef1",
+      "time": "4:58:58 PM",
+      "temp": "169.0",
+      "pressure": "0.57",
+      "flow": 43,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "c29d",
+      "time": "4:59:07 PM",
+      "temp": "186.0",
+      "pressure": "0.22",
+      "flow": 68,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "5033",
+      "time": "4:59:13 PM",
+      "temp": "146.5",
+      "pressure": "1.43",
+      "flow": 20,
+      "alert": "Normal"
+    },
+    {
+      "id": "1c80",
+      "time": "4:59:18 PM",
+      "temp": "196.7",
+      "pressure": "1.00",
+      "flow": 97,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "f827",
+      "time": "4:59:23 PM",
+      "temp": "148.7",
+      "pressure": "0.63",
+      "flow": 45,
+      "alert": "Normal"
+    },
+    {
+      "id": "5afb",
+      "time": "4:59:28 PM",
+      "temp": "143.4",
+      "pressure": "0.03",
+      "flow": 32,
+      "alert": "Normal"
+    },
+    {
+      "id": "118b",
+      "time": "4:59:33 PM",
+      "temp": "15.3",
+      "pressure": "0.52",
+      "flow": 8,
+      "alert": "⚠️ Low Flow!"
+    },
+    {
+      "id": "3dd5",
+      "time": "5:00:59 PM",
+      "temp": "18.2",
+      "pressure": "0.96",
+      "flow": 32,
+      "alert": "Normal"
+    },
+    {
+      "id": "fa71",
+      "time": "5:01:54 PM",
+      "temp": "132.0",
+      "pressure": "0.86",
+      "flow": 51,
+      "alert": "Normal"
+    },
+    {
+      "id": "b064",
+      "time": "7:44:33 PM",
+      "temp": "149.4",
+      "pressure": "0.07",
+      "flow": 55,
+      "alert": "Normal"
+    },
+    {
+      "id": "678e",
+      "time": "7:45:33 PM",
+      "temp": "90.9",
+      "pressure": "0.87",
+      "flow": 29,
+      "alert": "Normal"
+    },
+    {
+      "id": "4aba",
+      "time": "7:46:33 PM",
+      "temp": "84.7",
+      "pressure": "1.14",
+      "flow": 69,
+      "alert": "Normal"
+    },
+    {
+      "id": "b405",
+      "time": "7:47:33 PM",
+      "temp": "192.1",
+      "pressure": "0.21",
+      "flow": 29,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "765e",
+      "time": "7:48:33 PM",
+      "temp": "100.4",
+      "pressure": "1.91",
+      "flow": 61,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "7ca1",
+      "time": "7:49:33 PM",
+      "temp": "193.0",
+      "pressure": "1.47",
+      "flow": 41,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "e78b",
+      "time": "7:50:33 PM",
+      "temp": "96.1",
+      "pressure": "0.31",
+      "flow": 53,
+      "alert": "Normal"
+    },
+    {
+      "id": "576f",
+      "time": "7:51:33 PM",
+      "temp": "122.1",
+      "pressure": "1.72",
+      "flow": 83,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "5204",
+      "time": "7:52:33 PM",
+      "temp": "105.4",
+      "pressure": "1.22",
+      "flow": 53,
+      "alert": "Normal"
+    },
+    {
+      "id": "7970",
+      "time": "7:53:33 PM",
+      "temp": "162.1",
+      "pressure": "1.96",
+      "flow": 32,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "b4e4",
+      "time": "7:54:33 PM",
+      "temp": "98.6",
+      "pressure": "0.31",
+      "flow": 36,
+      "alert": "Normal"
+    },
+    {
+      "id": "4ed7",
+      "time": "7:55:33 PM",
+      "temp": "142.1",
+      "pressure": "0.03",
+      "flow": 83,
+      "alert": "Normal"
+    },
+    {
+      "id": "e0bc",
+      "time": "7:56:33 PM",
+      "temp": "36.0",
+      "pressure": "0.83",
+      "flow": 26,
+      "alert": "Normal"
+    },
+    {
+      "id": "fea4",
+      "time": "7:57:33 PM",
+      "temp": "11.9",
+      "pressure": "0.50",
+      "flow": 70,
+      "alert": "Normal"
+    },
+    {
+      "id": "49c0",
+      "time": "11:06:40 PM",
+      "temp": "155.0",
+      "pressure": "0.49",
+      "flow": 81,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "7265",
+      "time": "6:13:27 AM",
+      "temp": "80.7",
+      "pressure": "1.69",
+      "flow": 96,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "f09f",
+      "time": "6:27:31 AM",
+      "temp": "15.5",
+      "pressure": "1.22",
+      "flow": 48,
+      "alert": "Normal"
+    },
+    {
+      "id": "15e8",
+      "time": "6:41:07 AM",
+      "temp": "43.4",
+      "pressure": "1.60",
+      "flow": 5,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "fd7d",
+      "time": "6:52:23 AM",
+      "temp": "61.1",
+      "pressure": "1.21",
+      "flow": 22,
+      "alert": "Normal"
+    },
+    {
+      "id": "a4a4",
+      "time": "7:03:38 AM",
+      "temp": "119.7",
+      "pressure": "1.16",
+      "flow": 67,
+      "alert": "Normal"
+    },
+    {
+      "id": "599d",
+      "time": "7:09:38 AM",
+      "temp": "37.5",
+      "pressure": "1.87",
+      "flow": 38,
+      "alert": "⚠️ High Pressure!"
+    },
+    {
+      "id": "3189",
+      "time": "7:17:41 AM",
+      "temp": "28.6",
+      "pressure": "0.91",
+      "flow": 74,
+      "alert": "Normal"
+    },
+    {
+      "id": "ad27",
+      "time": "7:32:42 AM",
+      "temp": "18.7",
+      "pressure": "0.06",
+      "flow": 24,
+      "alert": "Normal"
+    },
+    {
+      "id": "4f1b",
+      "time": "7:43:30 AM",
+      "temp": "102.8",
+      "pressure": "1.25",
+      "flow": 15,
+      "alert": "⚠️ Low Flow!"
+    },
+    {
+      "id": "82b3",
+      "time": "7:53:49 AM",
+      "temp": "166.5",
+      "pressure": "1.70",
+      "flow": 77,
+      "alert": "⚠️ High Temp!"
+    },
+    {
+      "id": "9d88",
+      "time": "8:04:36 AM",
+      "temp": "100.5",
+      "pressure": "0.47",
+      "flow": 91,
+      "alert": "Normal"
+    },
+    {
+      "id": "fc32",
+      "time": "4:57:34 PM",
+      "temp": "36.2",
+      "pressure": "1.54",
+      "flow": 98,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "d9b2",
+      "time": "4:57:40 PM",
+      "temp": "134.5",
+      "pressure": "0.02",
+      "flow": 34,
+      "alert": "Normal"
+    },
+    {
+      "id": "ab5a",
+      "time": "4:57:45 PM",
+      "temp": "189.2",
+      "pressure": "0.39",
+      "flow": 76,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "73ac",
+      "time": "4:57:50 PM",
+      "temp": "175.5",
+      "pressure": "1.55",
+      "flow": 10,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "9cb2",
+      "time": "4:57:55 PM",
+      "temp": "72.9",
+      "pressure": "0.34",
+      "flow": 53,
+      "alert": "Normal"
+    },
+    {
+      "id": "eee5",
+      "time": "4:58:00 PM",
+      "temp": "124.7",
+      "pressure": "1.17",
+      "flow": 45,
+      "alert": "Normal"
+    },
+    {
+      "id": "410d",
+      "time": "4:58:06 PM",
+      "temp": "78.8",
+      "pressure": "1.28",
+      "flow": 75,
+      "alert": "Normal"
+    },
+    {
+      "id": "08e1",
+      "time": "4:58:11 PM",
+      "temp": "68.2",
+      "pressure": "1.92",
+      "flow": 77,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "486d",
+      "time": "4:58:16 PM",
+      "temp": "52.2",
+      "pressure": "0.49",
+      "flow": 41,
+      "alert": "Normal"
+    },
+    {
+      "id": "f937",
+      "time": "4:58:21 PM",
+      "temp": "143.8",
+      "pressure": "0.30",
+      "flow": 94,
+      "alert": "Normal"
+    },
+    {
+      "id": "a6d2",
+      "time": "4:58:27 PM",
+      "temp": "2.9",
+      "pressure": "0.99",
+      "flow": 63,
+      "alert": "Normal"
+    },
+    {
+      "id": "402a",
+      "time": "4:58:32 PM",
+      "temp": "62.5",
+      "pressure": "0.40",
+      "flow": 45,
+      "alert": "Normal"
+    },
+    {
+      "id": "6be3",
+      "time": "4:58:37 PM",
+      "temp": "58.7",
+      "pressure": "1.36",
+      "flow": 37,
+      "alert": "Normal"
+    },
+    {
+      "id": "0760",
+      "time": "4:58:42 PM",
+      "temp": "59.1",
+      "pressure": "1.61",
+      "flow": 17,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "a98c",
+      "time": "4:58:47 PM",
+      "temp": "126.4",
+      "pressure": "0.54",
+      "flow": 20,
+      "alert": "Normal"
+    },
+    {
+      "id": "f40e",
+      "time": "4:58:52 PM",
+      "temp": "89.2",
+      "pressure": "0.19",
+      "flow": 28,
+      "alert": "Normal"
+    },
+    {
+      "id": "f4c9",
+      "time": "4:58:58 PM",
+      "temp": "2.8",
+      "pressure": "1.17",
+      "flow": 11,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "9880",
+      "time": "4:59:03 PM",
+      "temp": "156.7",
+      "pressure": "1.19",
+      "flow": 98,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "8b3d",
+      "time": "4:59:08 PM",
+      "temp": "196.1",
+      "pressure": "0.73",
+      "flow": 13,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "9d60",
+      "time": "4:59:18 PM",
+      "temp": "47.9",
+      "pressure": "0.78",
+      "flow": 91,
+      "alert": "Normal"
+    },
+    {
+      "id": "dbcd",
+      "time": "4:59:23 PM",
+      "temp": "77.6",
+      "pressure": "0.59",
+      "flow": 51,
+      "alert": "Normal"
+    },
+    {
+      "id": "0011",
+      "time": "4:59:29 PM",
+      "temp": "22.7",
+      "pressure": "0.84",
+      "flow": 80,
+      "alert": "Normal"
+    },
+    {
+      "id": "a128",
+      "time": "4:59:34 PM",
+      "temp": "175.9",
+      "pressure": "1.13",
+      "flow": 40,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "e517",
+      "time": "4:59:42 PM",
+      "temp": "77.9",
+      "pressure": "1.50",
+      "flow": 70,
+      "alert": "Normal"
+    },
+    {
+      "id": "194d",
+      "time": "4:59:47 PM",
+      "temp": "94.9",
+      "pressure": "1.42",
+      "flow": 64,
+      "alert": "Normal"
+    },
+    {
+      "id": "47e2",
+      "time": "4:59:56 PM",
+      "temp": "17.1",
+      "pressure": "1.24",
+      "flow": 85,
+      "alert": "Normal"
+    },
+    {
+      "id": "067a",
+      "time": "5:00:02 PM",
+      "temp": "149.2",
+      "pressure": "1.09",
+      "flow": 77,
+      "alert": "Normal"
+    },
+    {
+      "id": "a0a3",
+      "time": "5:00:07 PM",
+      "temp": "71.7",
+      "pressure": "0.73",
+      "flow": 28,
+      "alert": "Normal"
+    },
+    {
+      "id": "ad59",
+      "time": "5:00:13 PM",
+      "temp": "62.9",
+      "pressure": "0.74",
+      "flow": 92,
+      "alert": "Normal"
+    },
+    {
+      "id": "4297",
+      "time": "5:00:18 PM",
+      "temp": "64.7",
+      "pressure": "1.56",
+      "flow": 74,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "d21f",
+      "time": "5:00:41 PM",
+      "temp": "120.7",
+      "pressure": "1.44",
+      "flow": 29,
+      "alert": "Normal"
+    },
+    {
+      "id": "bfb6",
+      "time": "5:00:46 PM",
+      "temp": "155.5",
+      "pressure": "0.83",
+      "flow": 47,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "026a",
+      "time": "5:00:51 PM",
+      "temp": "100.2",
+      "pressure": "0.73",
+      "flow": 4,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "52ee",
+      "time": "5:00:57 PM",
+      "temp": "107.1",
+      "pressure": "1.23",
+      "flow": 13,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "e7b5",
+      "time": "5:01:02 PM",
+      "temp": "103.6",
+      "pressure": "0.12",
+      "flow": 67,
+      "alert": "Normal"
+    },
+    {
+      "id": "f457",
+      "time": "5:01:07 PM",
+      "temp": "152.0",
+      "pressure": "1.58",
+      "flow": 17,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "e5d2",
+      "time": "5:01:12 PM",
+      "temp": "85.4",
+      "pressure": "0.69",
+      "flow": 20,
+      "alert": "Normal"
+    },
+    {
+      "id": "74d9",
+      "time": "5:01:17 PM",
+      "temp": "49.1",
+      "pressure": "0.51",
+      "flow": 52,
+      "alert": "Normal"
+    },
+    {
+      "id": "8b27",
+      "time": "5:01:24 PM",
+      "temp": "28.2",
+      "pressure": "1.67",
+      "flow": 45,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "7d24",
+      "time": "5:01:30 PM",
+      "temp": "181.4",
+      "pressure": "0.94",
+      "flow": 92,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "6ec2",
+      "time": "5:01:35 PM",
+      "temp": "71.5",
+      "pressure": "0.59",
+      "flow": 3,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "d4d9",
+      "time": "5:01:40 PM",
+      "temp": "43.2",
+      "pressure": "1.63",
+      "flow": 0,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "7023",
+      "time": "5:01:45 PM",
+      "temp": "133.6",
+      "pressure": "0.73",
+      "flow": 75,
+      "alert": "Normal"
+    },
+    {
+      "id": "437d",
+      "time": "5:01:50 PM",
+      "temp": "33.7",
+      "pressure": "0.10",
+      "flow": 7,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "a87c",
+      "time": "5:01:56 PM",
+      "temp": "161.4",
+      "pressure": "1.13",
+      "flow": 57,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "c5f3",
+      "time": "5:02:01 PM",
+      "temp": "154.2",
+      "pressure": "0.06",
+      "flow": 15,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "e139",
+      "time": "5:02:06 PM",
+      "temp": "191.9",
+      "pressure": "1.52",
+      "flow": 23,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "c1a1",
+      "time": "5:02:11 PM",
+      "temp": "148.0",
+      "pressure": "0.69",
+      "flow": 81,
+      "alert": "Normal"
+    },
+    {
+      "id": "8eb9",
+      "time": "5:02:16 PM",
+      "temp": "79.2",
+      "pressure": "0.71",
+      "flow": 11,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "de11",
+      "time": "5:02:22 PM",
+      "temp": "134.9",
+      "pressure": "0.98",
+      "flow": 95,
+      "alert": "Normal"
+    },
+    {
+      "id": "19d4",
+      "time": "5:02:27 PM",
+      "temp": "73.3",
+      "pressure": "1.03",
+      "flow": 11,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "014f",
+      "time": "5:02:32 PM",
+      "temp": "72.0",
+      "pressure": "0.51",
+      "flow": 9,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "b90e",
+      "time": "5:02:37 PM",
+      "temp": "25.5",
+      "pressure": "0.58",
+      "flow": 38,
+      "alert": "Normal"
+    },
+    {
+      "id": "3b38",
+      "time": "5:02:43 PM",
+      "temp": "32.0",
+      "pressure": "0.11",
+      "flow": 16,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "13ca",
+      "time": "5:02:49 PM",
+      "temp": "164.4",
+      "pressure": "0.09",
+      "flow": 80,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "bfbc",
+      "time": "5:02:55 PM",
+      "temp": "198.3",
+      "pressure": "0.42",
+      "flow": 6,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "e1c0",
+      "time": "5:03:01 PM",
+      "temp": "94.5",
+      "pressure": "1.23",
+      "flow": 62,
+      "alert": "Normal"
+    },
+    {
+      "id": "3f52",
+      "time": "5:03:07 PM",
+      "temp": "134.7",
+      "pressure": "1.29",
+      "flow": 78,
+      "alert": "Normal"
+    },
+    {
+      "id": "525a",
+      "time": "5:03:13 PM",
+      "temp": "187.0",
+      "pressure": "1.17",
+      "flow": 47,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "8475",
+      "time": "5:03:19 PM",
+      "temp": "63.6",
+      "pressure": "0.44",
+      "flow": 79,
+      "alert": "Normal"
+    },
+    {
+      "id": "549b",
+      "time": "5:03:25 PM",
+      "temp": "31.3",
+      "pressure": "0.01",
+      "flow": 98,
+      "alert": "Normal"
+    },
+    {
+      "id": "1048",
+      "time": "5:03:31 PM",
+      "temp": "74.2",
+      "pressure": "0.17",
+      "flow": 14,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "2101",
+      "time": "5:03:37 PM",
+      "temp": "8.8",
+      "pressure": "1.31",
+      "flow": 78,
+      "alert": "Normal"
+    },
+    {
+      "id": "0f73",
+      "time": "5:03:43 PM",
+      "temp": "48.6",
+      "pressure": "1.72",
+      "flow": 51,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "6825",
+      "time": "5:03:49 PM",
+      "temp": "138.1",
+      "pressure": "0.61",
+      "flow": 80,
+      "alert": "Normal"
+    },
+    {
+      "id": "a7a3",
+      "time": "5:03:55 PM",
+      "temp": "141.1",
+      "pressure": "1.35",
+      "flow": 1,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "ef13",
+      "time": "5:04:01 PM",
+      "temp": "54.0",
+      "pressure": "1.87",
+      "flow": 52,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "5ee0",
+      "time": "5:04:07 PM",
+      "temp": "20.7",
+      "pressure": "1.75",
+      "flow": 98,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "4b10",
+      "time": "5:04:13 PM",
+      "temp": "122.8",
+      "pressure": "1.87",
+      "flow": 84,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "c5ff",
+      "time": "5:04:19 PM",
+      "temp": "60.1",
+      "pressure": "0.55",
+      "flow": 69,
+      "alert": "Normal"
+    },
+    {
+      "id": "d727",
+      "time": "5:04:25 PM",
+      "temp": "42.0",
+      "pressure": "1.77",
+      "flow": 49,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "5114",
+      "time": "5:04:33 PM",
+      "temp": "137.4",
+      "pressure": "0.38",
+      "flow": 5,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "f16c",
+      "time": "5:04:39 PM",
+      "temp": "35.2",
+      "pressure": "0.75",
+      "flow": 82,
+      "alert": "Normal"
+    },
+    {
+      "id": "ce8e",
+      "time": "5:04:44 PM",
+      "temp": "40.1",
+      "pressure": "0.38",
+      "flow": 49,
+      "alert": "Normal"
+    },
+    {
+      "id": "ec1a",
+      "time": "5:04:49 PM",
+      "temp": "28.3",
+      "pressure": "0.86",
+      "flow": 17,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "f77b",
+      "time": "5:04:54 PM",
+      "temp": "5.2",
+      "pressure": "1.07",
+      "flow": 5,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "9a64",
+      "time": "5:04:59 PM",
+      "temp": "17.0",
+      "pressure": "1.35",
+      "flow": 23,
+      "alert": "Normal"
+    },
+    {
+      "id": "0454",
+      "time": "5:05:04 PM",
+      "temp": "37.2",
+      "pressure": "0.18",
+      "flow": 49,
+      "alert": "Normal"
+    },
+    {
+      "id": "f751",
+      "time": "5:05:10 PM",
+      "temp": "44.2",
+      "pressure": "0.94",
+      "flow": 70,
+      "alert": "Normal"
+    },
+    {
+      "id": "c86f",
+      "time": "5:05:15 PM",
+      "temp": "198.0",
+      "pressure": "0.37",
+      "flow": 83,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "9e1e",
+      "time": "5:05:20 PM",
+      "temp": "20.0",
+      "pressure": "0.02",
+      "flow": 64,
+      "alert": "Normal"
+    },
+    {
+      "id": "df1b",
+      "time": "5:05:25 PM",
+      "temp": "3.4",
+      "pressure": "0.29",
+      "flow": 33,
+      "alert": "Normal"
+    },
+    {
+      "id": "f442",
+      "time": "5:05:30 PM",
+      "temp": "68.5",
+      "pressure": "1.67",
+      "flow": 6,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "b6e1",
+      "time": "5:05:36 PM",
+      "temp": "78.9",
+      "pressure": "0.17",
+      "flow": 33,
+      "alert": "Normal"
+    },
+    {
+      "id": "a8b1",
+      "time": "5:05:41 PM",
+      "temp": "131.2",
+      "pressure": "0.45",
+      "flow": 67,
+      "alert": "Normal"
+    },
+    {
+      "id": "eda9",
+      "time": "5:05:46 PM",
+      "temp": "143.1",
+      "pressure": "1.45",
+      "flow": 26,
+      "alert": "Normal"
+    },
+    {
+      "id": "3242",
+      "time": "5:05:51 PM",
+      "temp": "92.9",
+      "pressure": "0.58",
+      "flow": 81,
+      "alert": "Normal"
+    },
+    {
+      "id": "941d",
+      "time": "5:05:56 PM",
+      "temp": "14.8",
+      "pressure": "0.08",
+      "flow": 4,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "4f1d",
+      "time": "5:06:02 PM",
+      "temp": "74.8",
+      "pressure": "0.78",
+      "flow": 49,
+      "alert": "Normal"
+    },
+    {
+      "id": "d0de",
+      "time": "5:06:07 PM",
+      "temp": "119.5",
+      "pressure": "1.66",
+      "flow": 30,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "9f16",
+      "time": "5:06:12 PM",
+      "temp": "106.5",
+      "pressure": "1.86",
+      "flow": 37,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "1c08",
+      "time": "5:06:17 PM",
+      "temp": "122.9",
+      "pressure": "0.72",
+      "flow": 54,
+      "alert": "Normal"
+    },
+    {
+      "id": "303b",
+      "time": "5:06:22 PM",
+      "temp": "170.6",
+      "pressure": "1.28",
+      "flow": 51,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "ed9c",
+      "time": "5:06:28 PM",
+      "temp": "53.4",
+      "pressure": "0.96",
+      "flow": 28,
+      "alert": "Normal"
+    },
+    {
+      "id": "2f8e",
+      "time": "5:06:33 PM",
+      "temp": "165.5",
+      "pressure": "1.95",
+      "flow": 44,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "21c9",
+      "time": "5:06:38 PM",
+      "temp": "49.1",
+      "pressure": "0.20",
+      "flow": 45,
+      "alert": "Normal"
+    },
+    {
+      "id": "c51a",
+      "time": "5:06:43 PM",
+      "temp": "13.4",
+      "pressure": "0.13",
+      "flow": 44,
+      "alert": "Normal"
+    },
+    {
+      "id": "c6b8",
+      "time": "5:06:48 PM",
+      "temp": "166.2",
+      "pressure": "0.19",
+      "flow": 62,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "3212",
+      "time": "5:06:53 PM",
+      "temp": "188.8",
+      "pressure": "0.69",
+      "flow": 44,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "cee2",
+      "time": "5:06:59 PM",
+      "temp": "163.5",
+      "pressure": "1.17",
+      "flow": 17,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "1ae0",
+      "time": "5:07:04 PM",
+      "temp": "181.3",
+      "pressure": "1.94",
+      "flow": 89,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "5e0d",
+      "time": "5:07:09 PM",
+      "temp": "88.2",
+      "pressure": "1.41",
+      "flow": 96,
+      "alert": "Normal"
+    },
+    {
+      "id": "8a02",
+      "time": "5:07:14 PM",
+      "temp": "167.4",
+      "pressure": "0.68",
+      "flow": 66,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "5784",
+      "time": "5:07:19 PM",
+      "temp": "145.5",
+      "pressure": "0.59",
+      "flow": 72,
+      "alert": "Normal"
+    },
+    {
+      "id": "4d13",
+      "time": "5:07:25 PM",
+      "temp": "5.1",
+      "pressure": "0.23",
+      "flow": 96,
+      "alert": "Normal"
+    },
+    {
+      "id": "4063",
+      "time": "5:07:30 PM",
+      "temp": "110.6",
+      "pressure": "0.98",
+      "flow": 44,
+      "alert": "Normal"
+    },
+    {
+      "id": "5509",
+      "time": "5:07:35 PM",
+      "temp": "4.1",
+      "pressure": "0.34",
+      "flow": 74,
+      "alert": "Normal"
+    },
+    {
+      "id": "8b0d",
+      "time": "5:07:40 PM",
+      "temp": "191.8",
+      "pressure": "0.78",
+      "flow": 46,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "c138",
+      "time": "5:07:45 PM",
+      "temp": "4.0",
+      "pressure": "0.92",
+      "flow": 95,
+      "alert": "Normal"
+    },
+    {
+      "id": "7a10",
+      "time": "5:07:51 PM",
+      "temp": "33.5",
+      "pressure": "0.11",
+      "flow": 64,
+      "alert": "Normal"
+    },
+    {
+      "id": "6628",
+      "time": "5:07:56 PM",
+      "temp": "146.0",
+      "pressure": "1.36",
+      "flow": 36,
+      "alert": "Normal"
+    },
+    {
+      "id": "79c6",
+      "time": "5:08:01 PM",
+      "temp": "73.6",
+      "pressure": "1.03",
+      "flow": 43,
+      "alert": "Normal"
+    },
+    {
+      "id": "4105",
+      "time": "5:08:06 PM",
+      "temp": "157.1",
+      "pressure": "1.13",
+      "flow": 57,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "2c2a",
+      "time": "5:08:11 PM",
+      "temp": "24.2",
+      "pressure": "1.46",
+      "flow": 65,
+      "alert": "Normal"
+    },
+    {
+      "id": "e79d",
+      "time": "5:08:17 PM",
+      "temp": "17.6",
+      "pressure": "0.43",
+      "flow": 10,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "83ce",
+      "time": "5:08:22 PM",
+      "temp": "96.9",
+      "pressure": "1.40",
+      "flow": 5,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "1074",
+      "time": "5:08:27 PM",
+      "temp": "45.6",
+      "pressure": "1.57",
+      "flow": 8,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "3ccb",
+      "time": "5:08:32 PM",
+      "temp": "146.4",
+      "pressure": "1.34",
+      "flow": 69,
+      "alert": "Normal"
+    },
+    {
+      "id": "47e2",
+      "time": "5:08:37 PM",
+      "temp": "55.6",
+      "pressure": "1.14",
+      "flow": 31,
+      "alert": "Normal"
+    },
+    {
+      "id": "85b5",
+      "time": "5:08:42 PM",
+      "temp": "195.8",
+      "pressure": "1.98",
+      "flow": 20,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "49a2",
+      "time": "5:08:48 PM",
+      "temp": "74.5",
+      "pressure": "0.30",
+      "flow": 56,
+      "alert": "Normal"
+    },
+    {
+      "id": "9ea8",
+      "time": "5:08:53 PM",
+      "temp": "90.1",
+      "pressure": "0.97",
+      "flow": 46,
+      "alert": "Normal"
+    },
+    {
+      "id": "309e",
+      "time": "5:08:58 PM",
+      "temp": "128.0",
+      "pressure": "0.10",
+      "flow": 55,
+      "alert": "Normal"
+    },
+    {
+      "id": "8726",
+      "time": "5:09:03 PM",
+      "temp": "112.3",
+      "pressure": "1.33",
+      "flow": 22,
+      "alert": "Normal"
+    },
+    {
+      "id": "de95",
+      "time": "5:09:08 PM",
+      "temp": "124.7",
+      "pressure": "0.45",
+      "flow": 76,
+      "alert": "Normal"
+    },
+    {
+      "id": "e750",
+      "time": "5:09:14 PM",
+      "temp": "136.7",
+      "pressure": "1.20",
+      "flow": 60,
+      "alert": "Normal"
+    },
+    {
+      "id": "3eef",
+      "time": "5:09:19 PM",
+      "temp": "83.2",
+      "pressure": "1.97",
+      "flow": 0,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "572f",
+      "time": "5:09:24 PM",
+      "temp": "166.0",
+      "pressure": "1.29",
+      "flow": 48,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "4545",
+      "time": "5:09:29 PM",
+      "temp": "68.9",
+      "pressure": "1.19",
+      "flow": 17,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "5c6d",
+      "time": "5:09:34 PM",
+      "temp": "107.9",
+      "pressure": "0.70",
+      "flow": 71,
+      "alert": "Normal"
+    },
+    {
+      "id": "a689",
+      "time": "5:09:40 PM",
+      "temp": "138.1",
+      "pressure": "0.70",
+      "flow": 33,
+      "alert": "Normal"
+    },
+    {
+      "id": "c48e",
+      "time": "5:09:45 PM",
+      "temp": "127.3",
+      "pressure": "0.47",
+      "flow": 55,
+      "alert": "Normal"
+    },
+    {
+      "id": "d9f3",
+      "time": "5:09:50 PM",
+      "temp": "63.0",
+      "pressure": "1.29",
+      "flow": 44,
+      "alert": "Normal"
+    },
+    {
+      "id": "5e9c",
+      "time": "5:09:55 PM",
+      "temp": "48.8",
+      "pressure": "1.44",
+      "flow": 0,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "99b5",
+      "time": "5:10:00 PM",
+      "temp": "195.1",
+      "pressure": "0.13",
+      "flow": 44,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "e76a",
+      "time": "5:10:06 PM",
+      "temp": "109.3",
+      "pressure": "1.66",
+      "flow": 51,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "16f6",
+      "time": "5:10:11 PM",
+      "temp": "25.9",
+      "pressure": "0.79",
+      "flow": 7,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "6646",
+      "time": "5:10:16 PM",
+      "temp": "174.9",
+      "pressure": "1.48",
+      "flow": 92,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "382f",
+      "time": "5:10:21 PM",
+      "temp": "174.0",
+      "pressure": "1.09",
+      "flow": 0,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "2456",
+      "time": "5:10:26 PM",
+      "temp": "8.7",
+      "pressure": "1.69",
+      "flow": 84,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "7ecd",
+      "time": "5:10:31 PM",
+      "temp": "35.9",
+      "pressure": "0.96",
+      "flow": 24,
+      "alert": "Normal"
+    },
+    {
+      "id": "b969",
+      "time": "5:10:37 PM",
+      "temp": "37.4",
+      "pressure": "0.65",
+      "flow": 13,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "330f",
+      "time": "5:10:42 PM",
+      "temp": "19.9",
+      "pressure": "1.68",
+      "flow": 19,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "f1e5",
+      "time": "5:10:47 PM",
+      "temp": "93.4",
+      "pressure": "0.49",
+      "flow": 73,
+      "alert": "Normal"
+    },
+    {
+      "id": "3d9d",
+      "time": "5:10:52 PM",
+      "temp": "149.5",
+      "pressure": "0.43",
+      "flow": 94,
+      "alert": "Normal"
+    },
+    {
+      "id": "a2b1",
+      "time": "5:10:57 PM",
+      "temp": "175.0",
+      "pressure": "0.46",
+      "flow": 13,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "7a1d",
+      "time": "5:11:03 PM",
+      "temp": "30.0",
+      "pressure": "1.01",
+      "flow": 30,
+      "alert": "Normal"
+    },
+    {
+      "id": "6ba5",
+      "time": "5:11:08 PM",
+      "temp": "151.9",
+      "pressure": "1.68",
+      "flow": 50,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "da3d",
+      "time": "5:11:13 PM",
+      "temp": "52.6",
+      "pressure": "0.03",
+      "flow": 58,
+      "alert": "Normal"
+    },
+    {
+      "id": "ade1",
+      "time": "5:11:18 PM",
+      "temp": "117.6",
+      "pressure": "1.80",
+      "flow": 36,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "bbb3",
+      "time": "5:11:23 PM",
+      "temp": "121.7",
+      "pressure": "0.98",
+      "flow": 19,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "c5d2",
+      "time": "5:11:29 PM",
+      "temp": "17.8",
+      "pressure": "0.75",
+      "flow": 50,
+      "alert": "Normal"
+    },
+    {
+      "id": "2ba8",
+      "time": "5:11:34 PM",
+      "temp": "57.1",
+      "pressure": "0.66",
+      "flow": 93,
+      "alert": "Normal"
+    },
+    {
+      "id": "4f7a",
+      "time": "5:11:39 PM",
+      "temp": "185.4",
+      "pressure": "1.66",
+      "flow": 50,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "352f",
+      "time": "5:11:44 PM",
+      "temp": "102.9",
+      "pressure": "1.12",
+      "flow": 43,
+      "alert": "Normal"
+    },
+    {
+      "id": "358e",
+      "time": "5:11:49 PM",
+      "temp": "122.0",
+      "pressure": "0.23",
+      "flow": 47,
+      "alert": "Normal"
+    },
+    {
+      "id": "dd91",
+      "time": "5:11:54 PM",
+      "temp": "199.0",
+      "pressure": "1.18",
+      "flow": 83,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "0865",
+      "time": "5:12:00 PM",
+      "temp": "57.8",
+      "pressure": "0.61",
+      "flow": 84,
+      "alert": "Normal"
+    },
+    {
+      "id": "c507",
+      "time": "5:12:05 PM",
+      "temp": "93.9",
+      "pressure": "0.89",
+      "flow": 0,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "dc4d",
+      "time": "5:12:10 PM",
+      "temp": "95.0",
+      "pressure": "1.78",
+      "flow": 11,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "29ea",
+      "time": "5:12:15 PM",
+      "temp": "62.3",
+      "pressure": "0.04",
+      "flow": 9,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "0a1a",
+      "time": "5:12:20 PM",
+      "temp": "105.6",
+      "pressure": "1.18",
+      "flow": 58,
+      "alert": "Normal"
+    },
+    {
+      "id": "4d76",
+      "time": "5:12:26 PM",
+      "temp": "10.0",
+      "pressure": "1.29",
+      "flow": 6,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "58b3",
+      "time": "5:12:31 PM",
+      "temp": "104.6",
+      "pressure": "0.35",
+      "flow": 67,
+      "alert": "Normal"
+    },
+    {
+      "id": "6ee5",
+      "time": "5:12:36 PM",
+      "temp": "34.9",
+      "pressure": "1.00",
+      "flow": 86,
+      "alert": "Normal"
+    },
+    {
+      "id": "778a",
+      "time": "5:12:41 PM",
+      "temp": "147.8",
+      "pressure": "1.97",
+      "flow": 91,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "b7f4",
+      "time": "5:12:46 PM",
+      "temp": "102.8",
+      "pressure": "1.15",
+      "flow": 26,
+      "alert": "Normal"
+    },
+    {
+      "id": "6c5d",
+      "time": "5:12:52 PM",
+      "temp": "20.7",
+      "pressure": "0.60",
+      "flow": 98,
+      "alert": "Normal"
+    },
+    {
+      "id": "902d",
+      "time": "5:12:57 PM",
+      "temp": "20.1",
+      "pressure": "0.59",
+      "flow": 21,
+      "alert": "Normal"
+    },
+    {
+      "id": "b7d0",
+      "time": "5:13:02 PM",
+      "temp": "104.9",
+      "pressure": "0.62",
+      "flow": 76,
+      "alert": "Normal"
+    },
+    {
+      "id": "fe2b",
+      "time": "5:13:07 PM",
+      "temp": "53.1",
+      "pressure": "0.69",
+      "flow": 0,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "53ec",
+      "time": "5:13:12 PM",
+      "temp": "8.7",
+      "pressure": "0.93",
+      "flow": 63,
+      "alert": "Normal"
+    },
+    {
+      "id": "7980",
+      "time": "5:13:18 PM",
+      "temp": "39.0",
+      "pressure": "0.18",
+      "flow": 3,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "0c10",
+      "time": "5:13:23 PM",
+      "temp": "29.2",
+      "pressure": "0.81",
+      "flow": 67,
+      "alert": "Normal"
+    },
+    {
+      "id": "429b",
+      "time": "5:13:28 PM",
+      "temp": "8.8",
+      "pressure": "1.81",
+      "flow": 3,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "107d",
+      "time": "5:13:33 PM",
+      "temp": "0.1",
+      "pressure": "0.09",
+      "flow": 89,
+      "alert": "Normal"
+    },
+    {
+      "id": "d34b",
+      "time": "5:13:38 PM",
+      "temp": "45.2",
+      "pressure": "1.60",
+      "flow": 39,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "b71c",
+      "time": "5:13:43 PM",
+      "temp": "105.4",
+      "pressure": "0.91",
+      "flow": 89,
+      "alert": "Normal"
+    },
+    {
+      "id": "0bec",
+      "time": "5:13:49 PM",
+      "temp": "131.4",
+      "pressure": "1.85",
+      "flow": 69,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "e456",
+      "time": "5:13:54 PM",
+      "temp": "127.5",
+      "pressure": "0.11",
+      "flow": 21,
+      "alert": "Normal"
+    },
+    {
+      "id": "0f7c",
+      "time": "5:13:59 PM",
+      "temp": "116.8",
+      "pressure": "0.85",
+      "flow": 65,
+      "alert": "Normal"
+    },
+    {
+      "id": "96d5",
+      "time": "5:14:04 PM",
+      "temp": "79.6",
+      "pressure": "1.69",
+      "flow": 56,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "185c",
+      "time": "5:14:09 PM",
+      "temp": "73.7",
+      "pressure": "0.78",
+      "flow": 66,
+      "alert": "Normal"
+    },
+    {
+      "id": "07aa",
+      "time": "5:14:15 PM",
+      "temp": "63.2",
+      "pressure": "0.00",
+      "flow": 92,
+      "alert": "Normal"
+    },
+    {
+      "id": "afb4",
+      "time": "5:14:20 PM",
+      "temp": "60.3",
+      "pressure": "0.82",
+      "flow": 60,
+      "alert": "Normal"
+    },
+    {
+      "id": "41e1",
+      "time": "5:14:25 PM",
+      "temp": "46.4",
+      "pressure": "1.63",
+      "flow": 51,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "537f",
+      "time": "5:14:30 PM",
+      "temp": "54.4",
+      "pressure": "0.21",
+      "flow": 49,
+      "alert": "Normal"
+    },
+    {
+      "id": "4491",
+      "time": "5:14:35 PM",
+      "temp": "190.3",
+      "pressure": "0.72",
+      "flow": 15,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "0882",
+      "time": "5:14:41 PM",
+      "temp": "117.1",
+      "pressure": "1.31",
+      "flow": 94,
+      "alert": "Normal"
+    },
+    {
+      "id": "eee6",
+      "time": "5:14:46 PM",
+      "temp": "150.3",
+      "pressure": "0.38",
+      "flow": 35,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "86ef",
+      "time": "5:14:51 PM",
+      "temp": "122.3",
+      "pressure": "1.20",
+      "flow": 99,
+      "alert": "Normal"
+    },
+    {
+      "id": "9950",
+      "time": "5:14:56 PM",
+      "temp": "32.3",
+      "pressure": "0.61",
+      "flow": 97,
+      "alert": "Normal"
+    },
+    {
+      "id": "49d2",
+      "time": "5:15:01 PM",
+      "temp": "38.6",
+      "pressure": "1.67",
+      "flow": 32,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "2f9f",
+      "time": "5:15:07 PM",
+      "temp": "186.6",
+      "pressure": "0.79",
+      "flow": 54,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "1fb3",
+      "time": "5:15:12 PM",
+      "temp": "124.6",
+      "pressure": "0.79",
+      "flow": 53,
+      "alert": "Normal"
+    },
+    {
+      "id": "74da",
+      "time": "5:15:17 PM",
+      "temp": "169.6",
+      "pressure": "1.53",
+      "flow": 45,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "f67c",
+      "time": "5:15:25 PM",
+      "temp": "107.6",
+      "pressure": "1.60",
+      "flow": 11,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "dac6",
+      "time": "5:15:33 PM",
+      "temp": "150.6",
+      "pressure": "0.06",
+      "flow": 35,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "832e",
+      "time": "5:16:28 PM",
+      "temp": "36.0",
+      "pressure": "1.04",
+      "flow": 83,
+      "alert": "Normal"
+    },
+    {
+      "id": "4a65",
+      "time": "5:17:19 PM",
+      "temp": "62.0",
+      "pressure": "1.57",
+      "flow": 2,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "0bea",
+      "time": "5:18:10 PM",
+      "temp": "175.7",
+      "pressure": "1.45",
+      "flow": 29,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "1c2e",
+      "time": "5:19:01 PM",
+      "temp": "30.4",
+      "pressure": "0.83",
+      "flow": 17,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "0228",
+      "time": "5:19:52 PM",
+      "temp": "177.9",
+      "pressure": "1.21",
+      "flow": 35,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "a876",
+      "time": "5:20:43 PM",
+      "temp": "123.7",
+      "pressure": "1.92",
+      "flow": 7,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "3bfe",
+      "time": "5:21:34 PM",
+      "temp": "6.3",
+      "pressure": "1.53",
+      "flow": 36,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "5bfd",
+      "time": "5:22:25 PM",
+      "temp": "90.6",
+      "pressure": "1.71",
+      "flow": 22,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "8e3f",
+      "time": "5:23:16 PM",
+      "temp": "41.8",
+      "pressure": "1.97",
+      "flow": 19,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "3d49",
+      "time": "5:24:07 PM",
+      "temp": "24.1",
+      "pressure": "0.92",
+      "flow": 56,
+      "alert": "Normal"
+    },
+    {
+      "id": "aa59",
+      "time": "5:24:58 PM",
+      "temp": "176.1",
+      "pressure": "1.37",
+      "flow": 98,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "bddb",
+      "time": "5:25:49 PM",
+      "temp": "12.9",
+      "pressure": "1.61",
+      "flow": 35,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "738b",
+      "time": "5:26:40 PM",
+      "temp": "160.1",
+      "pressure": "1.43",
+      "flow": 61,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "2d83",
+      "time": "5:27:31 PM",
+      "temp": "164.2",
+      "pressure": "0.35",
+      "flow": 16,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "4011",
+      "time": "5:28:22 PM",
+      "temp": "120.2",
+      "pressure": "0.50",
+      "flow": 27,
+      "alert": "Normal"
+    },
+    {
+      "id": "ddd3",
+      "time": "5:29:13 PM",
+      "temp": "140.0",
+      "pressure": "0.45",
+      "flow": 10,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "2107",
+      "time": "5:30:04 PM",
+      "temp": "169.6",
+      "pressure": "0.41",
+      "flow": 5,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "7911",
+      "time": "5:30:55 PM",
+      "temp": "86.9",
+      "pressure": "0.26",
+      "flow": 37,
+      "alert": "Normal"
+    },
+    {
+      "id": "bd4a",
+      "time": "5:31:46 PM",
+      "temp": "110.3",
+      "pressure": "0.27",
+      "flow": 33,
+      "alert": "Normal"
+    },
+    {
+      "id": "7a1a",
+      "time": "5:32:37 PM",
+      "temp": "88.6",
+      "pressure": "1.76",
+      "flow": 12,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "d0b4",
+      "time": "5:33:28 PM",
+      "temp": "90.0",
+      "pressure": "0.54",
+      "flow": 90,
+      "alert": "Normal"
+    },
+    {
+      "id": "97c1",
+      "time": "5:34:19 PM",
+      "temp": "101.9",
+      "pressure": "0.76",
+      "flow": 28,
+      "alert": "Normal"
+    },
+    {
+      "id": "1abb",
+      "time": "5:35:10 PM",
+      "temp": "194.5",
+      "pressure": "0.66",
+      "flow": 5,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "150c",
+      "time": "5:39:18 PM",
+      "temp": "85.1",
+      "pressure": "1.12",
+      "flow": 1,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "9ec0",
+      "time": "5:40:08 PM",
+      "temp": "195.3",
+      "pressure": "0.31",
+      "flow": 39,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "6267",
+      "time": "5:40:58 PM",
+      "temp": "196.4",
+      "pressure": "1.47",
+      "flow": 2,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "9e76",
+      "time": "5:41:48 PM",
+      "temp": "138.6",
+      "pressure": "0.45",
+      "flow": 72,
+      "alert": "Normal"
+    },
+    {
+      "id": "ed4d",
+      "time": "5:42:38 PM",
+      "temp": "187.7",
+      "pressure": "1.16",
+      "flow": 5,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "410d",
+      "time": "5:43:28 PM",
+      "temp": "112.9",
+      "pressure": "0.85",
+      "flow": 42,
+      "alert": "Normal"
+    },
+    {
+      "id": "0c40",
+      "time": "5:44:26 PM",
+      "temp": "61.3",
+      "pressure": "1.47",
+      "flow": 23,
+      "alert": "Normal"
+    },
+    {
+      "id": "4641",
+      "time": "5:45:26 PM",
+      "temp": "120.6",
+      "pressure": "0.42",
+      "flow": 24,
+      "alert": "Normal"
+    },
+    {
+      "id": "47ed",
+      "time": "5:46:26 PM",
+      "temp": "133.0",
+      "pressure": "0.70",
+      "flow": 48,
+      "alert": "Normal"
+    },
+    {
+      "id": "534c",
+      "time": "5:47:26 PM",
+      "temp": "0.1",
+      "pressure": "0.60",
+      "flow": 31,
+      "alert": "Normal"
+    },
+    {
+      "id": "aab4",
+      "time": "5:48:26 PM",
+      "temp": "46.7",
+      "pressure": "0.61",
+      "flow": 71,
+      "alert": "Normal"
+    },
+    {
+      "id": "2ef3",
+      "time": "5:49:26 PM",
+      "temp": "95.5",
+      "pressure": "0.04",
+      "flow": 99,
+      "alert": "Normal"
+    },
+    {
+      "id": "4d30",
+      "time": "5:50:26 PM",
+      "temp": "100.2",
+      "pressure": "0.47",
+      "flow": 72,
+      "alert": "Normal"
+    },
+    {
+      "id": "80a5",
+      "time": "5:51:26 PM",
+      "temp": "111.7",
+      "pressure": "0.08",
+      "flow": 37,
+      "alert": "Normal"
+    },
+    {
+      "id": "0b58",
+      "time": "5:52:26 PM",
+      "temp": "147.9",
+      "pressure": "1.07",
+      "flow": 59,
+      "alert": "Normal"
+    },
+    {
+      "id": "cba2",
+      "time": "5:53:26 PM",
+      "temp": "49.4",
+      "pressure": "1.47",
+      "flow": 76,
+      "alert": "Normal"
+    },
+    {
+      "id": "bb09",
+      "time": "10:20:44 PM",
+      "temp": "61.7",
+      "pressure": "0.51",
+      "flow": 78,
+      "alert": "Normal"
+    },
+    {
+      "id": "e585",
+      "time": "10:21:30 PM",
+      "temp": "179.7",
+      "pressure": "1.32",
+      "flow": 99,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "7576",
+      "time": "10:22:16 PM",
+      "temp": "159.8",
+      "pressure": "0.08",
+      "flow": 57,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "b5a2",
+      "time": "10:23:06 PM",
+      "temp": "86.4",
+      "pressure": "0.85",
+      "flow": 83,
+      "alert": "Normal"
+    },
+    {
+      "id": "26fe",
+      "time": "10:24:44 PM",
+      "temp": "151.7",
+      "pressure": "1.16",
+      "flow": 43,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "1cc7",
+      "time": "10:25:44 PM",
+      "temp": "46.4",
+      "pressure": "0.03",
+      "flow": 89,
+      "alert": "Normal"
+    },
+    {
+      "id": "4015",
+      "time": "10:26:44 PM",
+      "temp": "81.6",
+      "pressure": "1.00",
+      "flow": 32,
+      "alert": "Normal"
+    },
+    {
+      "id": "30f6",
+      "time": "10:27:41 PM",
+      "temp": "36.2",
+      "pressure": "1.58",
+      "flow": 7,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "e84e",
+      "time": "10:28:05 PM",
+      "temp": "100.6",
+      "pressure": "1.69",
+      "flow": 90,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "18dc",
+      "time": "10:28:55 PM",
+      "temp": "118.6",
+      "pressure": "0.83",
+      "flow": 61,
+      "alert": "Normal"
+    },
+    {
+      "id": "7f95",
+      "time": "10:29:46 PM",
+      "temp": "198.6",
+      "pressure": "0.44",
+      "flow": 61,
+      "alert": "High Temp!"
+    },
+    {
+      "id": "cb40",
+      "time": "11:33:19 AM",
+      "temp": "8.9",
+      "pressure": "0.93",
+      "flow": 10,
+      "alert": "Low Flow!"
+    },
+    {
+      "id": "3a7e",
+      "time": "11:34:19 AM",
+      "temp": "58.4",
+      "pressure": "1.77",
+      "flow": 57,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "0eca",
+      "time": "12:31:44 PM",
+      "temp": "30.2",
+      "pressure": "1.27",
+      "flow": 60,
+      "alert": "Normal"
+    },
+    {
+      "id": "16a4",
+      "time": "12:49:35 PM",
+      "temp": "65.8",
+      "pressure": "1.67",
+      "flow": 87,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "6e81",
+      "time": "12:50:49 PM",
+      "temp": "143.6",
+      "pressure": "1.56",
+      "flow": 86,
+      "alert": "High Pressure!"
+    },
+    {
+      "id": "73f3",
+      "time": "12:51:54 PM",
+      "temp": "3.7",
+      "pressure": "0.74",
+      "flow": 27,
+      "alert": "Normal"
+    },
+    {
+      "id": "6278",
+      "time": "12:53:01 PM",
+      "temp": "122.7",
+      "pressure": "0.61",
+      "flow": 79,
+      "alert": "Normal"
+    },
+    {
+      "id": "250c",
+      "time": "4:53:41 PM",
+      "temp": "5.4",
+      "pressure": "0.63",
+      "flow": 64,
+      "alert": "Normal"
+    }
+  ]
 }
